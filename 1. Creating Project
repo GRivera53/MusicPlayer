@@ -9,3 +9,5 @@ npm init
 
 this generate a package.json
 where u modify dependence, packages, updates.. etc.
+
+redirect folder from sublime to same folder where is package.json
