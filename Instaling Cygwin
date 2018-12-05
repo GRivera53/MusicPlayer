@@ -3,3 +3,13 @@ We need to be in a terminal, so need to install cygwin
 browse to c:\ 
 
 and create a new folder named cygwin_packages where it can download all packages and git and all stuff
+
+then in select packages 
+we select git distributed version control system
+also ssh to make connections to servers
+
+adding we install nano that helps to edit files
+also...
+and wget -> web
+
+and thats all you can add whatever you want or packages you feel comfortable with.
