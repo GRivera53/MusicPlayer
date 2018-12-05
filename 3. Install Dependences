@@ -37,3 +37,6 @@ Installing nodemon...
 every time we make a change updload server 
 npm install nodemon --save-dev
 only to use it in dev
+
+TO DESINSTALL 
+ex. npm uninstall moongose --save
