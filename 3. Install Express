@@ -1,0 +1,7 @@
+npm install express --save
+
+to save library into package.json
+
+when you do npm install  also install this
+
+API rest with nodejs
