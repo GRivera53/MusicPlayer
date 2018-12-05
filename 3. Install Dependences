@@ -1,0 +1,39 @@
+Installing Express...
+npm install express --save
+to save library into package.json
+when you do npm install  also install this
+API rest with nodejs
+
+Installing Bcrypt...
+npm install bcrypt-nodejs
+library to encrpyt pass
+
+Installing body parser ...
+npm install body-parser
+to parse thow json and work with objects
+
+Installing connect...
+upload files with node protocol http
+files can have protocol
+npm install connect-multiparty --save
+
+Installing jwt...
+npm install jwt-simple --save
+authentication with tokens
+
+Installint moment...
+npm install moment --save
+to use it later
+
+Installing Mongoose....
+to work with mongodb
+npm install mongoose --save
+
+Installing mongoose pagination...
+to make an example of pagination
+npm install mongoose-pagination
+
+Installing nodemon...
+every time we make a change updload server 
+npm install nodemon --save-dev
+only to use it in dev
