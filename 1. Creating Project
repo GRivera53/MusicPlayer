@@ -1,0 +1,11 @@
+Creating Dir
+mkdir curso-mean2
+
+Entering to folder
+cd curso-mean2
+
+Asistant where we can add attributes to project
+npm init
+
+this generate a package.json
+where u modify dependence, packages, updates.. etc.
