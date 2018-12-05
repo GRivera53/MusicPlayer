@@ -1,0 +1,11 @@
+Enter to folder where is your proyect
+
+.bash_profile
+
+modify and in the end of the file add 
+
+alias practice="directory"
+
+save and re-open cygwin 
+
+you only need to write practice to go to practice directory
