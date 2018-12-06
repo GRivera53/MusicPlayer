@@ -1,0 +1,36 @@
+To create database
+
+use curso_mean2
+
+//All what we save is in format bson 
+
+collection artist
+db.artist-save({name:'de la fuente', description: 'musica trap flolklorica', image: 'null'});
+
+to look at your inserted item:
+db.artist.find();
+
+
+Module to work with database mongoose
+INTO
+index.js
+
+'use strict'
+
+var mongoose = require ('mongoose');
+
+mongoose.connect('mongodb://localhost:27017/curso_mean2', (err, res) => {
+	if(err){
+		throw err;
+	} else {
+		console.log("The database is running");
+	}
+});
+
+In package.json
+in scripts...
+"start": "nodemon index.js",
+
+and run as 
+In folder curso-mean2
+npm start
