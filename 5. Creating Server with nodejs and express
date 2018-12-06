@@ -1,0 +1,42 @@
+app.js
+'use strict'
+
+var express = require('express');
+var bodyParser = require('body-parser');
+
+var app = express();
+
+//cargar rutas
+
+app.use(bodyParser.urlencoded({extended:false}));
+app.use(bodyParser.json());
+
+//configurar cabeceras http
+
+//rutas base
+
+app.get('/pruebas', function(req, res){
+	res.status(200).send({message: 'Course of mean2'});
+});
+
+module.exports = app;
+
+index.js
+'use strict'
+
+var mongoose = require ('mongoose');
+var app = require('./app');
+//configurar puerto de serv web backend
+var port = process.env.PORT || 3977;
+
+mongoose.connect('mongodb://localhost:27017/curso_mean2', (err, res) => {
+	if(err){
+		throw err;
+	} else {
+		console.log("The database is running");
+
+		app.listen(port, function(){
+			console.log("server API Rest listening in http://localhost:" + port);
+		});
+	}
+});
